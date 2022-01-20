@@ -77,7 +77,7 @@ cmp.setup({
 --    capabilities = capabilities
 --  }
 
-local servers = { 'gopls'}
+local servers = { 'gopls', 'tsserver', 'terraformls'}
 
 local runtime_path = vim.split(package.path, ';')
 table.insert(runtime_path, "lua/?.lua")
